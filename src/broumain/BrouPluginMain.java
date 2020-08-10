@@ -35,8 +35,8 @@ public class BrouPluginMain extends JavaPlugin  {
         getCommand("day").setExecutor(new DayChange());
         getCommand("night").setExecutor(new NightChange());
         getCommand("gm").setExecutor(new GmChange());
-        getCommand("brouop").setExecutor(new OpPlayer());
-        getCommand("broudeop").setExecutor(new DeopPlayer());
+        getCommand("op").setExecutor(new OpPlayer());
+        getCommand("deop").setExecutor(new DeopPlayer());
         getCommand("gms").setExecutor(new GmSurvival());
         getCommand("gmc").setExecutor(new GmCreative());
         getCommand("gma").setExecutor(new GmAdventure());

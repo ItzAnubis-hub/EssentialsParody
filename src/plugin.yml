@@ -19,12 +19,12 @@ commands:
  gm:
    description:
    usage: /gm (0, 1, 2, 3)
- brouop:
+ op:
    description:
-   usage: /brouop <Player>
- broudeop:
+   usage: /op <Player>
+ deop:
    description:
-   usage: /broudeop <Player>
+   usage: /deop <Player>
  gms:
    description:
    usage: /gms (Change your GameMode to SURVIVAL)

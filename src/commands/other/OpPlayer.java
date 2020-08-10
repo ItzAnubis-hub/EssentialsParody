@@ -12,7 +12,7 @@ public class OpPlayer implements CommandExecutor {
     @Override
 
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        if(command.getName().equalsIgnoreCase("brouop")) {
+        if(command.getName().equalsIgnoreCase("op")) {
             try {
                 if (!commandSender.hasPermission("brou.op")) {
                     commandSender.sendMessage(ChatColor.RED + "You don't have permission.");

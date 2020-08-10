@@ -10,7 +10,7 @@ import org.bukkit.entity.Player;
 public class DeopPlayer implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        if (command.getName().equalsIgnoreCase("broudeop")) {
+        if (command.getName().equalsIgnoreCase("deop")) {
             try {
                 if (!commandSender.hasPermission("brou.deop")) {
                     commandSender.sendMessage(ChatColor.RED + "You don't have permission.");
