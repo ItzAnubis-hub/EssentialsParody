@@ -1,16 +1,16 @@
 package broumain;
 
-import commands.chatcmd.BroadcastAnon;
-import commands.chatcmd.BroadcastMessages;
-import commands.gamemodeсhange.*;
-import commands.other.DeopPlayer;
-import commands.other.OpPlayer;
-import commands.timechange.DayChange;
-import commands.timechange.NightChange;
-import commands.weatherchange.DownfallChange;
-import commands.weatherchange.SunChange;
-import listeners.BedLeaveEvent;
-import listeners.JoinPlayerEvent;
+import command.chat.BroadcastAnon;
+import command.chat.BroadcastMessages;
+import command.gamemode.*;
+import command.operator.DeopPlayer;
+import command.operator.OpPlayer;
+import command.timechange.DayChange;
+import command.timechange.NightChange;
+import command.weatherchange.DownfallChange;
+import command.weatherchange.SunChange;
+import listener.BedLeaveListener;
+import listener.JoinPlayerListener;
 import org.bukkit.Bukkit;
 import org.bukkit.Difficulty;
 import org.bukkit.World;
@@ -22,14 +22,14 @@ public class BrouPluginMain extends JavaPlugin  {
     @Override
     public void onEnable() {
 
-        Bukkit.getPluginManager().registerEvents(new JoinPlayerEvent(), this);
-        Bukkit.getPluginManager().registerEvents(new BedLeaveEvent(), this);
+        Bukkit.getPluginManager().registerEvents(new JoinPlayerListener(), this);
+        Bukkit.getPluginManager().registerEvents(new BedLeaveListener(), this);
 
         World world = Bukkit.getWorld("world");
 
         Difficulty difficulty = world.getDifficulty();
 
-        // Start of the executors commands
+        // Start of the executors command
         getCommand("sun").setExecutor(new SunChange());
         getCommand("rain").setExecutor(new DownfallChange());
         getCommand("day").setExecutor(new DayChange());
@@ -47,7 +47,7 @@ public class BrouPluginMain extends JavaPlugin  {
         getCommand("ebc").setExecutor(new BroadcastAnon());
 
 
-        // End of the executors commands
+        // End of the executors command
 
         getLogger().info("brouplug: ON");
     }
