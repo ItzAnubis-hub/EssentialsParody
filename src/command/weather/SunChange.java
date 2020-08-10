@@ -1,4 +1,4 @@
-package command.weatherchange;
+package command.weather;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

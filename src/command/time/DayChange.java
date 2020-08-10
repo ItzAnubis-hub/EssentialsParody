@@ -1,4 +1,4 @@
-package command.timechange;
+package command.time;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
