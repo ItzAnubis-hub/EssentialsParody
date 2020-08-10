@@ -31,7 +31,7 @@ public class DeopPlayer implements CommandExecutor {
                                 playerToDeOp.setOp(false);
                             }
                         } else {
-
+                            commandSender.sendMessage("Данный игрок не онлайн.");
                         }
                         return true;
                     } catch (Exception ex) {
