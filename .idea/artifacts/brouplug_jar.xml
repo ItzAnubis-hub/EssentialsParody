@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="brouplug:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/brouplug_jar</output-path>
+    <root id="archive" name="brouplug.jar">
+      <element id="module-output" name="BrouPlugin" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Downloads/Bukkit-API-1.14.2-fd317e4-20190617-1127.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

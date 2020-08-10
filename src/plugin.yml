@@ -1,0 +1,52 @@
+name: brouplug
+main: broumain.BrouPluginMain
+version: 0.1A
+
+#Commands
+commands:
+ sun:
+   description:
+   usage: /sun
+ rain:
+    description:
+    usage: /rain
+ day:
+   description:
+   usage: /day
+ night:
+    description:
+    usage: /night
+ gm:
+   description:
+   usage: /gm (0, 1, 2, 3)
+ brouop:
+   description:
+   usage: /brouop <Player>
+ broudeop:
+   description:
+   usage: /broudeop <Player>
+ gms:
+   description:
+   usage: /gms (Change your GameMode to SURVIVAL)
+ gmc:
+   description:
+   usage: /gmc (Change your GameMode to CREATIVE)
+ gma:
+   description:
+   usage: /gma (Change your GameMode to ADVENTURE)
+ gmsp:
+   description:
+   usage: /gmsp (Change your GameMode to SPECTATOR)
+ broadcast:
+   description:
+   usage: /broadcast <broadcast_message>
+ bc:
+   description:
+   usage: /bc <broadcast_message>
+ ebroadcast:
+   description:
+   usage: /ebroadcast <broadcast_message>
+ ebc:
+  description:
+  usage: /ebc <broadcast_message>
+#End of The commands
