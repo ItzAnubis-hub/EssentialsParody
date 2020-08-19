@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Spigot-API-1.14.4-94af569-20190911-0820">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/Spigot-API-1.14.4-94af569-20190911-0820.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/Spigot-API-1.14.4-94af569-20190911-0820.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

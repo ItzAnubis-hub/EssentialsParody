@@ -5,6 +5,8 @@ import command.chat.BroadcastMessages;
 import command.gamemode.*;
 import command.operator.DeopPlayer;
 import command.operator.OpPlayer;
+import command.teleport.TeleportPlayer;
+import command.teleport.TeleportSPlayer;
 import command.time.DayChange;
 import command.time.NightChange;
 import command.weatherchange.DownfallChange;
@@ -45,7 +47,8 @@ public class BrouPluginMain extends JavaPlugin  {
         getCommand("bc").setExecutor(new BroadcastMessages());
         getCommand("ebroadcast").setExecutor(new BroadcastAnon());
         getCommand("ebc").setExecutor(new BroadcastAnon());
-
+        getCommand("tp").setExecutor(new TeleportPlayer());
+        getCommand("s").setExecutor(new TeleportSPlayer());
 
         // End of the executors command
 

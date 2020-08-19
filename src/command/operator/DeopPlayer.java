@@ -19,7 +19,6 @@ public class DeopPlayer implements CommandExecutor {
                     if (strings.length == 0) {
                         return false;
                     }
-
                     try {
                         Player playerToDeOp = Bukkit.getServer().getPlayer(deopPlayer);
                         if(playerToDeOp.isOnline()) {

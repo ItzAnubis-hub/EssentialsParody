@@ -49,4 +49,9 @@ commands:
  ebc:
   description:
   usage: /ebc <broadcast_message>
-#End of The command
+ tp:
+   description:
+   usage: /tp <Player to teleport>
+ s:
+   description:
+   usage: /s <Player>
