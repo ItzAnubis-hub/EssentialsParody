@@ -1,0 +1,30 @@
+name: brouplug
+main: ru.venegri.essentials.BrouPluginMain
+version: 0.1A
+author: venegri
+
+commands:
+  sun:
+  rain:
+  time:
+  morning:
+  day:
+  evening:
+  night:
+  gm:
+  op:
+  deop:
+  gms:
+  gmc:
+  gma:
+  gmsp:
+  broadcast:
+    aliases: [bc]
+  ebroadcast:
+    aliases: [ebc]
+  tp:
+  s:
+  weather:
+  fly:
+  god:
+  speed:
